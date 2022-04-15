@@ -1,0 +1,12 @@
+street = input("위치를 입력하시오.")
+st = input("건물 형식을 입력하시오.")
+number_of_rooms = int(input("방의 갯수를 입력하시오."))
+price = int(input("가격을 입력하시오."))
+
+print("##############################")
+print("#                            #")
+print("# 부동산 매물 광고               #")
+print("#                            #")
+print("##############################")
+print("")
+print(street + "에 위치한 아주 좋은 " + st + "가 매물로 나왔습니다. 이 " + st + "는 " + str(number_of_rooms) + "개의 방을 가지고 있으며 가격은 " + str(price) + "입니다.")
